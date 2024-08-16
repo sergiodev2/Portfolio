@@ -1,0 +1,53 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Sergio Castilla Roncel - PORTFOLIO">
+	<main>
+		<header id="inicio" class="flex flex-col items-center ">
+			<nav class="bg-[#23282D]/75 w-[96%] h-[60px] rounded-full font-medium text-sm sm:text-lg text-color-text2 flex-row border border-neutral-700/40 justify-center items-center mt-4 fixed z-30 backdrop-blur-3xl lg:w-[918px] md:h-[74px] md:gap-7 flex ">
+				<a href="#inicio" class="text-slate-400 px-1 py-1 sm:px-4 sm:py-2 rounded-full hover:bg-emerald-600 hover:text-[#23282D] duration-300">Inicio</a>
+				<a href="#sobre_mí" class="text-white px-1 py-1 sm:px-4 sm:py-2 rounded-full hover:bg-emerald-600 hover:text-primary-color duration-300">Sobre mí</a>
+				<a href="#experiencia" class="text-white px-1 py-1 sm:px-4 sm:py-2 rounded-full hover:bg-emerald-600 hover:text-primary-color duration-300">Experiencia</a>
+				<a href="#proyectos" class="text-white px-1 py-1 sm:px-4 sm:py-2 rounded-full hover:bg-emerald-600 hover:text-primary-color duration-300">Proyectos</a>
+			</nav>
+			<div class="flex flex-col items-center max-w-[1310px] min-w-full gap-8 sm:gap-11 mt-[120px] sm:mt-[192px]">
+				<div class="flex flex-row justify-center items-center gap-2 w-[226px] h-[46px] rounded-full border-[2px] border-emerald-600 text-sm font-normal">
+					<span class="relative flex h-[10px] w-[10px]">
+						<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-600 opacity-75"></span>
+						<span class="relative inline-flex rounded-full h-[10px] w-[10px] bg-green-600"></span>
+
+					</span>
+					<p class="text-white">Disponible para trabajar</p>
+				</div>
+			</div>
+			<div class="text-center">
+				<h2 class="font-syne font-medium text-2xl sm:text-3xl mt-12 mb-4 text-white">Sergio Castilla Roncel</h1>
+				<h1 class="font-syne font-bold text-[45px] sm:text-[80px] md:text-8xl text-green-lime leading-[50px] sm:leading-[110px] duration-300 text-emerald-600">Desarrollador
+					<br>
+					Backend
+				</h1>
+				<div class="flex flex-col items-center mt-7">
+					<a class=" w-[210px] h-[80px] sm:w-[243px] sm:h-[90px] bg-primary-color flex flex-row gap-[10px] text-lg sm:text-xl font-medium rounded-[50px] justify-center items-center border-[2px] border-emerald-600 hover:bg-emerald-600 hover:border-emerald-600 duration-300 text-white">
+						<svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="#ffffff"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-download"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" /><path d="M7 11l5 5l5 -5" /><path d="M12 4l0 12" /></svg>
+						Descargar CV</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<body>
+			<div class="bg-white py-24 sm:py-32 mt-16">
+				<div class="mx-auto max-w-7xl px-6 lg:px-8">
+					<h2 class="text-center text-lg font-semibold leading-8 text-gray-900">Trusted by the world’s most innovative teams</h2>
+					<div class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+						<img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg" alt="Transistor" width="158" height="48">
+						<img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg" alt="Reform" width="158" height="48">
+						<img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg" alt="Tuple" width="158" height="48">
+						<img class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg" alt="SavvyCal" width="158" height="48">
+						<img class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg" alt="Statamic" width="158" height="48">
+					</div>
+				</div>
+			</div>
+		</body>
+	</main>
+</Layout>
